@@ -16,7 +16,7 @@ header::after {
 }
 
 .page-image {
-    margin-right: 40%;
+    margin-right: 10%;
     padding: 15px 0;
     float:right ;
 }
@@ -37,7 +37,7 @@ nav ul {
     padding-left: 30px;
     text-align: left;
     margin: auto;
-    padding-top: 11px;
+    padding-top: 12px;
 }
 
 nav li {
