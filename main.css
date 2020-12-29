@@ -1,5 +1,10 @@
 /*Header Navigation*/
 
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
 nav {
     background-color: antiquewhite;
 }
@@ -10,6 +15,6 @@ nav li {
     padding: 0px;
 }
 
-.page-button{
+.page-image{
     float: left;
 }
