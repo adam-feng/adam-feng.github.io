@@ -64,6 +64,7 @@ nav a:hover{
     fill:#696868;
     float: right;
     padding-right: 10px;
+    padding-bottom: 2px;
 }
 
 .github:hover{
