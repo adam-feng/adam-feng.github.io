@@ -59,12 +59,29 @@ nav a:hover{
 html, body{
     margin: 0;
     padding: 0;
+    background-color:#f5f5f5;
 }
 
 .row {
     display: flex;
-  }
+    padding-top: 100px;
+}
   
-  .column {
-    flex: 25%;
-  }
+.column {
+
+    padding: 10px;
+    flex: 50%;
+    text-align: center;
+}
+
+.bio {
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+#profile-image {
+    padding: 10px;
+    height: auto;
+    width: 100%;
+}
