@@ -1,12 +1,12 @@
 /*Header Navigation*/
 
 .container{
-    width: 85%;
-    margin: 0 auto;
+    width: 95%;
+    margin: 0;
 }
 
 header {
-    background: rgb(228, 255, 251);   
+    background: rgb(119, 119, 119);   
 }
 
 header::after {
@@ -16,15 +16,15 @@ header::after {
 }
 
 .page-image {
-    float: left;
-    padding: 10px 0;
+
+    padding: 15px 0;
+    float:right ;
 }
 
 nav {
     margin: 0;
-    float: middle;
     font-family: "Nunito Sans", sans-serif;
-    font-weight: 550;
+    font-weight: 400;
 }
 
 nav ul {
@@ -33,16 +33,22 @@ nav ul {
     list-style: none;
 }
 
+.buttons{
+    padding-left: 30px;
+    text-align: left;
+    margin: auto;
+    padding-top: 14px;
+}
+
 nav li {
-    display: inline-block;
-    margin-left: 16px;
-    padding-top: 16px;
+    display: inline;
+    margin-left: 3%;
 }
 
 nav a{
-    color:rgb(56, 56, 56);
+    color:rgb(199, 199, 199);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 nav a:hover{
