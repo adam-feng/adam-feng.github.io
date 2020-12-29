@@ -19,8 +19,9 @@ header::after {
 .page-image {
     position: absolute;
     float:middle;
-    padding-top: 11px;
-    padding-left: 47%;
+    margin-top: 11px;
+    margin-left: 47%;
+    justify-content: space-around;
 }
 
 nav {
@@ -60,6 +61,7 @@ nav a:hover{
 
 .socials {
     float: right;
+    padding-right: 4%
 }
 
 .socials ul{
@@ -82,7 +84,7 @@ nav a:hover{
 }
 
 .github{
-    padding-right: 10px;
+    margin-right: 10px;
     fill:#696868;
 }
 
@@ -132,5 +134,5 @@ html, body{
     padding: 20px;
     height: auto;
     width: 100%;
-    border: solid lightcoral;
+    border: dotted lightcoral;
 }
