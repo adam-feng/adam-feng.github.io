@@ -20,7 +20,7 @@ header::after {
     position: absolute;
     float:middle;
     margin-top: 4px;
-    padding-left: 17%;
+    padding-left: 1%;
     justify-content: space-around;
 }
 
