@@ -36,6 +36,7 @@ nav ul {
 }
 
 .buttons{
+    position: absolute;
     padding-left: 4%;
     float: left;
     padding-top: 11px;
