@@ -17,8 +17,12 @@ header::after {
 }
 
 .page-image {
+    height: 24px;
+    width: auto;
     position: absolute;
-    margin-top: 4px;
+    display: inline-flex;
+    left: calc(100%/2);
+    margin-top: 0px;
     padding-left: 1%;
 }
 
@@ -47,7 +51,7 @@ nav li {
 nav a{
     color: #696868;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 nav a:hover{
