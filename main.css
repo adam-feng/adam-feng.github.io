@@ -16,9 +16,10 @@ header::after {
 }
 
 .page-image {
-    margin-right: 10%;
-    padding: 15px 0;
-    float:right ;
+    margin-left: 12%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
 }
 
 nav {
@@ -34,7 +35,7 @@ nav ul {
 }
 
 .buttons{
-    padding-left: 30px;
+    padding-left: 30%;
     text-align: left;
     margin: auto;
     padding-top: 12px;
@@ -42,7 +43,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 nav a{
@@ -59,3 +60,11 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+  }
