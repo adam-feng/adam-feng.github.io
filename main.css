@@ -20,7 +20,6 @@ header::after {
     position: absolute;
     float:middle;
     padding-top: 11px;
-    padding-bottom: 18px;
     padding-left: 47%;
 }
 
@@ -37,6 +36,7 @@ nav ul {
 }
 
 .buttons{
+    display: inline;
     position: absolute;
     padding-left: 4%;
     float: left;
@@ -82,13 +82,12 @@ nav a:hover{
 }
 
 .github{
-    padding-right: 7px;
+    padding-right: 10px;
     fill:#696868;
 }
 
 .github:hover{
     fill:lightcoral;
-}
 }
 
 .linkedin {
@@ -133,4 +132,5 @@ html, body{
     padding: 20px;
     height: auto;
     width: 100%;
+    border: solid lightcoral;
 }
