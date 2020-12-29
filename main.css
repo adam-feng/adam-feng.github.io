@@ -20,7 +20,7 @@ header::after {
     position: absolute;
     float:middle;
     margin-top: 4px;
-    padding-left: 25%;
+    padding-left: 17%;
     justify-content: space-around;
 }
 
@@ -59,6 +59,7 @@ nav a:hover{
     color:lightcoral
 }
 
+/*social buttons*/
 .socials {
     float: right;
     padding-right: 4%;
