@@ -19,8 +19,8 @@ header::after {
 .page-image {
     position: absolute;
     float:middle;
-    margin-top: 11px;
-    margin-left: 47%;
+    margin-top: 4px;
+    padding-left: 25%;
     justify-content: space-around;
 }
 
