@@ -5,16 +5,22 @@
     margin: 0 auto;
 }
 
-nav {
-    background-color: antiquewhite;
-}
-
-nav li {
-    display: inline;
-    margin: 0;
-    padding: 0px;
-}
-
 .page-image{
     float: left;
+}
+
+.buttons{
+    margin: 0;
+}
+
+header {
+    background: greenyellow;
+    
+}
+
+.header
+
+html, body{
+    margin: 0;
+    padding: 0;
 }
