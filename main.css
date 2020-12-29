@@ -18,10 +18,8 @@ header::after {
 
 .page-image {
     position: absolute;
-    float:middle;
     margin-top: 4px;
     padding-left: 1%;
-    justify-content: space-around;
 }
 
 nav {
@@ -37,10 +35,8 @@ nav ul {
 }
 
 .buttons{
-    display: inline-block;
     margin-left: 4%;
     padding-right: 2px;
-    float: left;
     padding-top: 10px;
 }
 
@@ -59,34 +55,11 @@ nav a:hover{
     color:lightcoral
 }
 
-/*social buttons*/
-.socials {
-    float: right;
-    padding-right: 4%;
-}
-
-.socials ul{
-    float: right;
-    list-style: none;
-    margin:0;
-    padding: 0;
-    padding-top: 3px;
-}
-
-.socials li{
-    float: right;
-    display: inline;
-}
-
-.s-buttons {
-    float: right;
-    padding: 4px;
-    fill:#696868;
-}
+/*colours*/
 
 .github{
-    margin-right: 10px;
     fill:#696868;
+    float: right;
 }
 
 .github:hover{
@@ -95,14 +68,11 @@ nav a:hover{
 
 .linkedin {
     fill:#696868;
+    float:right;
 }
 
 .linkedin:hover {
     fill:lightcoral;
-}
-
-.socials a {
-    text-decoration: none;
 }
 
 html, body{
