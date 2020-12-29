@@ -16,12 +16,12 @@ header::after {
 }
 
 .page-image {
-    padding-right: 43%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: right;
+    position: absolute;
+    float:middle;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    padding-left: 47%;
 }
-
 
 nav {
     margin: 0;
@@ -36,10 +36,9 @@ nav ul {
 }
 
 .buttons{
-    padding-left: 2%;
+    padding-left: 4%;
     float: left;
-    margin-left: 3%;
-    padding-top: 12px;
+    padding-top: 11px;
 }
 
 nav li {
@@ -55,6 +54,50 @@ nav a{
 
 nav a:hover{
     color:lightcoral
+}
+
+.socials {
+    float: right;
+}
+
+.socials ul{
+    float: right;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.socials li{
+    float: right;
+    display: inline;
+}
+
+.s-buttons {
+    float: right;
+    padding: 4px;
+    fill:#696868;
+}
+
+.github{
+    padding-right: 3px;
+    fill:#696868;
+}
+
+.github:hover{
+    fill:lightcoral;
+}
+}
+
+.linkedin {
+    fill:#696868;
+}
+
+.linkedin:hover {
+    fill:lightcoral;
+}
+
+.socials a {
+    text-decoration: none;
 }
 
 html, body{
