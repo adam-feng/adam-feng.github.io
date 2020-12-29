@@ -6,7 +6,8 @@
 }
 
 header {
-    background: rgb(255, 255, 255);   
+    background: rgb(255, 255, 255);  
+    padding-top: 5px; 
 }
 
 header::after {
@@ -18,8 +19,8 @@ header::after {
 .page-image {
     position: absolute;
     float:middle;
-    padding-top: 14px;
-    padding-bottom: 16px;
+    padding-top: 11px;
+    padding-bottom: 18px;
     padding-left: 47%;
 }
 
@@ -39,7 +40,7 @@ nav ul {
     position: absolute;
     padding-left: 4%;
     float: left;
-    padding-top: 11px;
+    padding-top: 10px;
 }
 
 nav li {
@@ -66,6 +67,7 @@ nav a:hover{
     list-style: none;
     margin:0;
     padding: 0;
+    padding-top: 3px;
 }
 
 .socials li{
@@ -80,7 +82,7 @@ nav a:hover{
 }
 
 .github{
-    padding-right: 3px;
+    padding-right: 7px;
     fill:#696868;
 }
 
