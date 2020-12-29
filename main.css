@@ -35,7 +35,6 @@ nav ul {
 }
 
 .buttons{
-    margin-left: 4%;
     padding-right: 2px;
     padding-top: 10px;
 }
@@ -60,6 +59,7 @@ nav a:hover{
 .github{
     fill:#696868;
     float: right;
+    padding-right: 10px;
 }
 
 .github:hover{
@@ -69,6 +69,7 @@ nav a:hover{
 .linkedin {
     fill:#696868;
     float:right;
+    margin-right: 3%;
 }
 
 .linkedin:hover {
