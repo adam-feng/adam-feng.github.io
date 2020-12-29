@@ -1,7 +1,7 @@
 /*Header Navigation*/
 
 .container{
-    width: 95%;
+    width: 100%;
     margin: 0;
 }
 
@@ -36,9 +36,9 @@ nav ul {
 }
 
 .buttons{
-    display: inline;
-    position: absolute;
+    display: inline-block;
     padding-left: 4%;
+    padding-right: 2px;
     float: left;
     padding-top: 10px;
 }
