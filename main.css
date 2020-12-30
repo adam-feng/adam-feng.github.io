@@ -1,98 +1,50 @@
-/*Header Navigation*/
-
-.container{
-    width: 100%;
-    margin: 0;
-}
-
-header {
-    background: rgb(255, 255, 255);  
-    padding-top: 5px; 
-}
-
-header::after {
-    content:'';
-    display: table;
-    clear: both;
-}
-
-.page-image {
-    height: 24px;
-    width: auto;
-    position: absolute;
-    display: inline;
-    left: calc((94%-124px)/2);
-    margin-top: 0px;
-}
 
 nav {
     margin: 0;
+    margin-top: 0;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
+    background-color: lavender;
+    height: 38px;
 }
 
 nav ul {
-    margin: 0;
-    
     list-style: none;
 }
 
-.buttons{
-    padding-right: 0px;
-    padding-top: 10px;
-    margin-left: 0;
-}
-
-.link-button{
-    margin: 0;
-    float: left;
-    width: 70%;
-}
-
 nav li {
+    padding-right: 20px;
     display: inline;
-    padding-right: 10px;
 }
 
-nav a{
-    color: #696868;
+nav a {
+    align-items: center;
     text-decoration: none;
+    color: #575555;
     font-size: 16px;
-}
-
-nav a:active{
-    fill:lightcoral
-    
 }
 
 nav a:hover{
     color:lightcoral
 }
 
-/* Burger*/
-.burger {
- display: none;
+.link-button {
+    display: flex;
+    float: left;
+    margin-top: 10px;
 }
 
-.burger div{
-    width: 25px;
-    height: 3px;
-    border-radius: 2px;
-    background-color:#696868;
-    margin: 4px;
+.page-image {
+    margin-top: 14px;
+    position: absolute;
+    right: calc(50vw - 50px); 
 }
 
-.burger:hover {
-    color:lightcoral
-}
-
-/*colours*/
-
-.github{
-    fill:#696868;
+.github {
+    fill:#575555;
     float: right;
-    padding-right: 10px;
-    padding-bottom: 2px;
+    margin-top: 7px;
+    padding-right: 15px;
 }
 
 .github:hover{
@@ -100,102 +52,12 @@ nav a:hover{
 }
 
 .linkedin {
-    fill:#696868;
-    float:right;
-    margin-right: 3%;
+    fill:#575555;
+    float: right;
+    margin-top: 7px;
+    margin-right: 20px;
 }
 
 .linkedin:hover {
     fill:lightcoral;
-}
-
-html, body{
-    margin: 0;
-    padding: 0;
-    background-color:#faeded;
-}
-
-
-/*For smaller screens so there are no overlaps*/
-@media screen and (max-width:770px) {
-    body {
-        overflow-x: hidden;
-    }
-    .link-button{
-        position: absolute;
-        left: 0px;
-        height: 100%;
-        top: 46px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 30%;
-        transform: translateX(-100%);
-        opacity: 0;
-        transition: transform 0.5s ease-in;
-    }
-    .pages{
-        padding-bottom: 30px;
-    }
-    .burger {
-        display: block;
-        float: left;
-        position: absolute;
-        margin: 0;
-        padding: 0;
-        top: 13px;
-        margin-left: 13px;
-        cursor: pointer;
-    }
-
-    /* .burger:hover{
-        fill:lightcoral;
-    }
-
-    .line1:hover + .line2{
-        background-color:lightcoral;
-    }
-
-    .line2:hover + .line3{
-        background-color:lightcoral;
-    } */
-
-    .page-image {
-        position: absolute;
-        display: inline;
-        left: calc((87%-124px)/2);
-        margin-top: 0px;
-    }
-}
-
-.link-button-active{
-    transform: translateX(0%);
-}
-
-/*Profile*/
-
-.row {
-    display: flex;
-    padding-top: 100px;
-}
-  
-.column {
-    padding: 20px;
-    flex: 50%;
-    text-align: center;
-}
-
-.bio {
-    font-size: 30px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-}
-
-#profile-image {
-    padding: 20px;
-    height: auto;
-    width: 100%;
-    border: dotted lightcoral;
 }
