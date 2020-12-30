@@ -20,8 +20,8 @@ header::after {
     height: 24px;
     width: auto;
     position: absolute;
-    display: inline-flex;
-    left: calc((100%-91px)/2);
+    display: inline-block;
+    left: calc((94%-124px)/2);
     margin-top: 0px;
 }
 
@@ -88,7 +88,7 @@ nav a:hover{
 html, body{
     margin: 0;
     padding: 0;
-    background-color:#f5f5f5;
+    background-color:#ffffff;
 }
 
 /*Profile*/
