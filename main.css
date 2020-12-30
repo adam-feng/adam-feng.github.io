@@ -1,7 +1,5 @@
-
 nav {
     margin: 0;
-    margin-top: 0;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     background-color: lavender;
@@ -10,10 +8,11 @@ nav {
 
 nav ul {
     list-style: none;
+    margin-left: 15px
 }
 
 nav li {
-    padding-right: 20px;
+    padding-right: 18px;
     display: inline;
 }
 
@@ -28,14 +27,14 @@ nav a:hover{
     color:lightcoral
 }
 
-.link-button {
+#link-button {
     display: flex;
     float: left;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .page-image {
-    margin-top: 14px;
+    margin-top: 11px;
     position: absolute;
     right: calc(50vw - 50px); 
 }
@@ -44,7 +43,9 @@ nav a:hover{
     fill:#575555;
     float: right;
     margin-top: 7px;
-    padding-right: 15px;
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
 }
 
 .github:hover{
@@ -56,8 +57,14 @@ nav a:hover{
     float: right;
     margin-top: 7px;
     margin-right: 20px;
+    position: absolute;
+    right: 28px;
 }
 
 .linkedin:hover {
     fill:lightcoral;
+}
+
+@media screen and (max-width:770px) {
+
 }
