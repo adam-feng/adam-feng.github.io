@@ -1,4 +1,17 @@
 
+.logo:hover .hello{
+    fill:lightcoral
+}
+
+.logo {
+    position: absolute;
+    right: calc(50vw - 68px); 
+    top: 13px;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
 
 nav {
     margin: 0;
@@ -29,7 +42,7 @@ nav {
 }
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
     opacity: 0;
-    animation-timing-function: 0s;
+    transition: 0s;
 }
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
     transform: translate(15%, -528%) rotate(45deg) ;
@@ -60,13 +73,6 @@ nav {
 .nav-link:hover {
     color:lightcoral !important;
 }
-
-.page-image {
-    position: absolute;
-    right: calc(50vw - 50px); 
-    top: 13px;
-}
-
 .github {
     position: absolute;
     fill:#575555;
