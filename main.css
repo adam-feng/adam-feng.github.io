@@ -1,4 +1,8 @@
 
+.active a {
+    color: lightcoral !important;
+}
+
 .logo:hover .symbol{
     transition:0.7s;
     fill:lightcoral
@@ -76,6 +80,7 @@ nav {
     transition:0.2s;
     color:lightcoral !important;
 }
+
 .github {
     position: absolute;
     fill:#575555;
