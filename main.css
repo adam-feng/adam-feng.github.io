@@ -22,20 +22,22 @@ nav {
     transform-origin: center left;
 }
 
+/* Animate open into cross menu */
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
     transform: translate(15%, 528%) rotate(-45deg);
 }
-/* center line goes transparent */
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
     opacity: 0;
     animation-timing-function: 0s;
 }
-/* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
     transform: translate(15%, -528%) rotate(45deg) ;
 }
 
+.navbar-toggler:hover > .icon-bar {
+    background-color: lightcoral;
+}
 
 /* Animate open into hamburger menu */
 
