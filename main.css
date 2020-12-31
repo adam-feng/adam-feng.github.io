@@ -1,12 +1,13 @@
 
-.logo:hover .hello{
+.logo:hover .symbol{
+    transition:0.7s;
     fill:lightcoral
 }
 
 .logo {
     position: absolute;
     right: calc(50vw - 68px); 
-    top: 13px;
+    top: 10px;
 }
 
 .logo:hover {
@@ -53,6 +54,7 @@ nav {
 }
 
 .navbar-toggler:hover > .icon-bar {
+    transition:0.5s;
     background-color: lightcoral; 
 }
 
@@ -71,6 +73,7 @@ nav {
 /* Hovering colour changes */
 
 .nav-link:hover {
+    transition:0.2s;
     color:lightcoral !important;
 }
 .github {
@@ -84,6 +87,7 @@ nav {
 }
 
 .github:hover{
+    transition:0.5s;
     fill:lightcoral;
 }
 
@@ -98,5 +102,6 @@ nav {
 }
 
 .linkedin:hover {
+    transition:0.5s;
     fill:lightcoral;
 }
