@@ -35,8 +35,12 @@ nav {
     transform: translate(15%, -528%) rotate(45deg) ;
 }
 
+.navbar-toggler:not(.collapsed) > .icon-bar {
+    background-color: lightcoral; 
+}
+
 .navbar-toggler:hover > .icon-bar {
-    background-color: lightcoral;
+    background-color: lightcoral; 
 }
 
 /* Animate open into hamburger menu */
