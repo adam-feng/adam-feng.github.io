@@ -84,6 +84,7 @@ nav {
     margin-right: 3%;
     position: absolute;
     right: 0;
+    transition:0.5s;
 }
 
 .github:hover{
