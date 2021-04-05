@@ -240,7 +240,7 @@ nav {
     }
     .text {
         position: absolute;
-        top: 560px;
+        top: 545px;
         width: 600px;
         left: -190px;
 	    right: 0;
@@ -256,7 +256,7 @@ nav {
         overflow-x: hidden;
     }
 
-    
+
     .left {
         padding: 0;
         margin: auto;
