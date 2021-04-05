@@ -23,6 +23,7 @@ nav {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     position: absolute;
+    box-shadow: 0 0px 20px 0 rgba(-10, 10, 0, 0.19);
 }
 
 .navbar-toggler span {
@@ -39,6 +40,7 @@ nav {
     transition: all 0.35s ease-out;
     transform-origin: center left;
 }
+
 
 /* Animate open into cross menu */
 
@@ -136,7 +138,7 @@ nav {
 
 .left {
     width: 40%;
-    background-color:rgb(241, 195, 195);
+    background-color:rgb(189, 202, 216);
 }
 
 .right {
@@ -149,58 +151,93 @@ nav {
     clear: both;
 }
 
+.entire{
+    padding-top:120px;
+    position:absolute;
+    padding-left: 20%;
+}
 
+.profile-box {
+    background-color: rgb(220, 228, 238);
+    position:absolute;
+    width: 365px;
+    height:480px;
+    box-shadow: 0 0px 20px 0 rgba(-10, 10, 0, 0.19);
+    border-bottom: 45px solid rgb(245, 245, 245);
+}
+
+.row{
+    overflow-y:hidden;
+}
+
+.name {
+    position: relative;
+    text-align: center;
+    font-weight:700;
+    font-size: 38px;
+}
 
 .profile-image {
-    width: 100%;
+    width: 240px;
+    position:relative;
     display: block;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 60px;
+    margin-top: 37px;
+    padding-bottom: 29px;
 }
 
-.rotate{
-    transform: rotate(90deg);
-    left: 0px;
-    top: 156px;
-    color:rgb(175, 175, 247);
-    position: absolute;
-    padding-left: 0px;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-decoration: none;
+.text{
+    margin-top: 35px;
+    width: 440px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 80px;
+    padding-left: 65px;
+    text-align:justify;
+    margin-left: 380px
 }
 
-.name{
-    text-align: center;
+@media screen and (max-width: 1080px) {
+    .left, .right{
+        width: 100%;
+    }
+    .left {
+        height:300px;
+    }
+    .right {
+        height:60%
+    }
+    .entire {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        
+        margin: auto;
+        
+    }
+    .profile-box {
+        position:absolute;
+        width: 355px;
+        display: flexbox;
+        left: -80px;
+	    right: 0;
+        top: 40px;
+	    margin: auto;
+    }
+    .text {
+        position: absolute;
+        top: 560px;
+        width: 600px;
+        left: -190px;
+	    right: 0;
+  	
+	    margin: auto;
+    }
 }
 
-.bio {
-    padding-left: 55px;
-    padding-top: 20px;
-    padding-right: 20px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: justify;
-    background-color:rgba(250, 217, 217, 0.068);
-}
-
-.col-md-6 {
-    padding: 20px;
-    color:  #575555;
-    margin-left:auto;
-    margin-right:auto;
-}
 
 
 
-.filler span {
-    background-color: #acacac;
-    height: 90px;
-    width: 250px;
-    position: absolute;
-    opacity: 0.5;
-    top: 110px;
-    left: 300px;
-    z-index: -1;
-}
