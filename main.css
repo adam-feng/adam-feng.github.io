@@ -19,6 +19,7 @@
 }
 
 nav {
+    width: 100%;
     margin: 0;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
@@ -205,9 +206,8 @@ nav {
     }
 
     .row{
-        max-width: 100%;
         padding: 0px;
-        margin: 0 px;
+        margin: 0px;
     }
 
     .left {
@@ -254,6 +254,7 @@ nav {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
+        width: 100%;
     }
 
 
