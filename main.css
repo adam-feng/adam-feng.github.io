@@ -201,8 +201,11 @@ html, body {
 
 @media screen and (max-width: 1080px) {
     html, body {
-        margin: 0; height: 100%; overflow: hidden
-    }
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
 
     .left {
         padding: 0;
@@ -248,7 +251,8 @@ html, body {
 @media screen and (max-width: 600px) {
 
     html, body {
-        margin: 0; height: 100%; overflow: hidden
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     .left {
