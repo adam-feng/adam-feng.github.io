@@ -127,14 +127,15 @@ nav {
     top:50px
 }
   
-
+html, body {
+    margin: 0; height: 100%; overflow: hidden
+}
 
 .column {
     float: left;
-    padding: 10px;
-    height: 100vh;
-    
+    height: 100vh; 
 }
+
 
 .left {
     width: 40%;
@@ -199,13 +200,19 @@ nav {
 }
 
 @media screen and (max-width: 1080px) {
-    .left, .right{
-        width: 100%;
+    html, body {
+        margin: 0; height: 100%; overflow: hidden
     }
+
     .left {
+        padding: 0;
+        margin: auto;
+        width: 100%;
+        overflow:hidden;
         height:300px;
     }
     .right {
+        width: 80%;
         height:60%
     }
     .entire {
@@ -238,6 +245,63 @@ nav {
     }
 }
 
+@media screen and (max-width: 600px) {
 
+    html, body {
+        margin: 0; height: 100%; overflow: hidden
+    }
+
+    .left {
+        padding: 0;
+        margin: auto;
+        width: 100%;
+        overflow:hidden;
+        height:300px;
+    }
+    .right {
+        width: 80%;
+        height:60%
+    }
+    .entire {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        
+        margin: auto;
+        
+    }
+    .profile-box {
+        position:absolute;
+        width: 300px;
+        height: 380px;
+        display: flexbox;
+        left: -95px;
+	    right: 0;
+        top: 30px;
+	    margin: auto;
+        border-bottom: 35px solid rgb(245, 245, 245);
+    }
+
+    .profile-image{
+        width: 215px;
+        margin-top:23px;
+        padding-bottom:15px
+    }
+
+    .name{
+        font-size: 32px;
+    }
+    .text {
+        position: absolute;
+
+        top: 425px;
+        width: 450px;
+        left: -160px;
+	    right: 0;
+	    margin: auto;
+    }
+}
 
 
