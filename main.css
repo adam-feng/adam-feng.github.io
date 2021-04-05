@@ -127,9 +127,7 @@ nav {
     top:50px
 }
   
-html, body {
-    margin: 0; height: 100%; overflow: hidden
-}
+
 
 .column {
     float: left;
@@ -200,18 +198,21 @@ html, body {
 }
 
 @media screen and (max-width: 1080px) {
+
     html, body {
+        max-width: 100%;
         overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
+    }
+
+    .row{
+        max-width: 100%;
+        padding: 0px;
+        margin: 0 px;
+    }
 
     .left {
-        padding: 0;
-        margin: auto;
+        max-width: 100%;
         width: 100%;
-        overflow:hidden;
         height:300px;
     }
     .right {
@@ -255,6 +256,7 @@ html, body {
         overflow-x: hidden;
     }
 
+    
     .left {
         padding: 0;
         margin: auto;
